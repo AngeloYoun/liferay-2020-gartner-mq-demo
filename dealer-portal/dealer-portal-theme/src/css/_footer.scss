@@ -1,14 +1,14 @@
 .footer {
-	background-color: $dark;
+	background-color: $dpt-dark;
 	padding-bottom: 56px;
 	padding-top: 56px;
 
 	a {
-		color: $white;
+		color: $dpt-white;
 	}
 
 	.company-copyright-text {
-		color: $background;
+		color: $dpt-background;
 	}
 
 	.copyright {
@@ -18,12 +18,12 @@
 	}
 
 	.footer-links {
-		font-size: $sm-whitespace;
-		font-weight: $font-weight-medium;
+		font-size: $dpt-sm-whitespace;
+		font-weight: $dpt-font-weight-medium;
 
 		a {
 			display: block;
-			padding-bottom: $sm-whitespace;
+			padding-bottom: $dpt-sm-whitespace;
 		}
 	}
 }

@@ -42,4 +42,19 @@
   .zeon-container {
     justify-content: space-between;
   }
+
+  .riuvo-logo {
+	  display: flex;
+
+	  svg {
+		height: 56px;
+		width: 56px;
+		margin-right: 16px;
+	  }
+
+	  .dealer-name {
+		line-height: 56px;
+		margin-bottom: 0;
+	}
+  }
 }

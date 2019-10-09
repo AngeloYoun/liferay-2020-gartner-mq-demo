@@ -1,11 +1,8 @@
 <div class="col-md-12 footer text-white">
     <div class="footer-inner max-width-1224 row">
-        <div class="col-md-3">
-            <svg width="36" height="40" viewBox="0 0 36 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 0H36V40H0V0Z" fill="white"/>
-                <path d="M11.5234 12H22.3553L19.3357 16.781L18.6044 17.9388L17.8731 19.0967" stroke="#D72323" stroke-width="3.98413"/>
-                <path d="M23.4756 27.6875H12.6437L16.0093 22.3587L17.1259 20.5908" stroke="#D72323" stroke-width="3.98413"/>
-            </svg>
+        <div class="col-md-3 company-logo">
+            <img alt="${logo_description}" class="mr-2" height="56" src="${site_logo}" />
+
             <h5 class="d-inline">Dealer Portal</h5>
         </div>
 

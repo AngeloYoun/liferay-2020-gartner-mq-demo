@@ -81,6 +81,12 @@ body .zeon {
     display: inline;
     padding-right: 22px; }
 
+.zeon .account-info {
+  text-align: right; }
+  .zeon .account-info .content {
+    padding-right: 0;
+    padding-left: 22px; }
+
 .zeon .btn {
   border-radius: 0;
   font-size: var(--zeon-base-font-size);

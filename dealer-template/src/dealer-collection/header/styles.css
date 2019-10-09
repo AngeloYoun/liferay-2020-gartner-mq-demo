@@ -31,3 +31,13 @@
 
 .header.zeon .zeon-container {
   justify-content: space-between; }
+
+.header.zeon .riuvo-logo {
+  display: flex; }
+  .header.zeon .riuvo-logo svg {
+    height: 56px;
+    width: 56px;
+    margin-right: 16px; }
+  .header.zeon .riuvo-logo .dealer-name {
+    line-height: 56px;
+    margin-bottom: 0; }

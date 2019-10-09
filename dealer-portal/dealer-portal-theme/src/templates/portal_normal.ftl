@@ -10,7 +10,7 @@
 	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
 
 	<@liferay_util["include"] page=top_head_include />
-	
+
 	<link rel="stylesheet" href="https://naver.github.io/billboard.js/release/latest/dist/billboard.css">
 
 	<script src="https://d3js.org/d3.v5.min.js"></script>
@@ -26,17 +26,13 @@
 <@liferay.control_menu />
 
 <div id="wrapper">
-	<header class="container-fluid" id="banner" role="banner">
+	<header class="riuvo-demo container-fluid" id="banner" role="banner">
 		<div class="row">
 			<div class="col-md-12 navbar-header text-white" id="heading">
 				<div class="navbar-header-inner max-width-1224 row">
 					<div class="col-md-6">
 						<a class="company-logo" href="/" title="Dealer Portal">
-							<svg width="36" height="40" viewBox="0 0 36 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path d="M0 0H36V40H0V0Z" fill="#09101D"/>
-								<path d="M11.5234 12H22.3553L19.3357 16.781L18.6044 17.9388L17.8731 19.0967" stroke="#D72323" stroke-width="3.98413"/>
-								<path d="M23.4756 27.6875H12.6437L16.0093 22.3587L17.1259 20.5908" stroke="#D72323" stroke-width="3.98413"/>
-							</svg>
+							<img alt="${logo_description}" class="mr-2" height="56" src="${site_logo}" />
 
 							<h5>Dealer Portal</h5>
 						</a>
@@ -59,7 +55,7 @@
 									<div class="font-weight-medium user-name">
 										${user.firstName} ${user.lastName}
 									</div>
-									
+
 									<div class="job-title">
 										${user.jobTitle}
 									</div>
@@ -92,7 +88,7 @@
 		</#if>
 	</section>
 
-	<footer class="container-fluid" id="footer" role="contentinfo">
+	<footer class="riuvo-demo container-fluid" id="footer" role="contentinfo">
 		<div class="row">
 			<#include "${full_templates_path}/footer.ftl" />
 		</div>

@@ -22,6 +22,7 @@
 	"scripts": {
 		"build": "babel --source-maps -d build src && npm run copy-assets && liferay-npm-bundler",
 		"copy-assets": "lnbs-copy-assets",
+		"deploy": "npm run build && lnbs-deploy",
 		"start": "lnbs-start"
 	},
 	"portlet": {

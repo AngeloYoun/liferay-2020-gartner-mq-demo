@@ -1,4 +1,5 @@
 {
+	"liferayDir": "/Users/AngeloYoun/Documents/Liferay/Projects/master/bundles",
 	"webpack": {
 		"rules": [
 			{

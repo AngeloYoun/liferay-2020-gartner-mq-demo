@@ -1,0 +1,57 @@
+$dpt-primary: #d72323 !default;
+$dpt-primary-dark: #af0000 !default;
+$dpt-dark: #09101d !default;
+$dpt-secondary: #646b75 !default;
+$dpt-background: #e5e5e5 !default;
+$dpt-background-light: #f7f8f9 !default;
+$dpt-light: #f1f2f5 !default;
+$dpt-white: #fff !default;
+$dpt-brand: #09101D !default;
+
+$dpt-font-family-base: 'Yantramanav-Regular', sans-serif, -apple-system,
+	blinkmacsystemfont, 'Segoe UI', roboto, 'Helvetica Neue', arial, sans-serif,
+	'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' !default;
+
+$dpt-font-weight-medium: 500 !default;
+$dpt-font-weight-black: 900 !default;
+
+$dpt-base-font-size: 18px !default;
+$dpt-h1-display-size: 65.76px !default;
+$dpt-h1-size: 51.96px !default;
+$dpt-h2-size: 41.05px !default;
+$dpt-h3-size: 32.44px !default;
+$dpt-h4-size: 25.63px !default;
+$dpt-h5-size: 22.78px !default;
+$dpt-secondary-size: 16px !default;
+$dpt-small-size: 12.64px !default;
+
+$dpt-h1-display-line-height: 72px !default;
+$dpt-h3-line-height: 30px !default;
+$dpt-h4-line-height: 72px !default;
+$dpt-h5-line-height: 28px !default;
+$dpt-small-line-height: 24px !default;
+
+$dpt-xs-whitespace: 12px;
+$dpt-sm-whitespace: 16px;
+$dpt-md-whitespace: 24px;
+$dpt-lg-whitespace: 32px;
+$dpt-xl-whitespace: 48px;
+
+:root {
+	--dp-h4-size: 25.63px;
+	--dp-secondary-font-size: 16px;
+	--dp-color-background-light: #f7f8f9;
+	--dp-color-dark: #09101d;
+	--dp-color-secondary: #646b75;
+	--dp-color-light: #f1f2f5;
+	--dp-color-white: #fff;
+
+	--dp-font-weight-black: 900;
+	--dp-font-weight-medium: 500;
+
+	--dp-xs-whitespace: 12px;
+	--dp-sm-whitespace: 16px;
+	--dp-md-whitespace: 24px;
+	--dp-lg-whitespace: 32px;
+	--dp-xl-whitespace: 48px;
+  }

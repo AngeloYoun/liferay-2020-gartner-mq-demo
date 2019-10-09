@@ -10,9 +10,8 @@
     text-transform: uppercase; }
   .banner.zeon .learn-more {
     border-left: 2px solid var(--zeon-primary);
-    padding-left: var(--zeon-xs-whitespace); }
-    .banner.zeon .learn-more a {
-      color: var(--zeon-white); }
+    padding-left: var(--zeon-xs-whitespace);
+    color: var(--zeon-white); }
   .banner.zeon .subheading {
     color: var(--zeon-primary);
     font-size: var(--zeon-secondary-size);

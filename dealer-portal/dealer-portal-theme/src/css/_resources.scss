@@ -1,6 +1,6 @@
 .kb-article-container {
     padding-left: 95px;
-    border-left: 1px solid $light;
+    border-left: 1px solid $dpt-light;
 
     form,
     .kb-entity-body + h5,
@@ -9,7 +9,7 @@
     }
 
     .kb-article-ratings {
-        margin-top: $md-whitespace;
+        margin-top: $dpt-md-whitespace;
     }
 
     .taglib-header {
@@ -18,7 +18,7 @@
 }
 
 .kb-entity-body {
-    padding-bottom: $xl-whitespace;
+    padding-bottom: $dpt-xl-whitespace;
 }
 
 .kb-tools,
@@ -28,6 +28,7 @@
 
 .portlet-asset-publisher {
     .portlet-content {
-        border-width: 0;
+		border-width: 0;
+		padding: 0;
     }
 }

@@ -1,6 +1,90 @@
 @import '_fonts';
+@import '_variables';
 
-@import '_elements';
-@import '_header';
-@import '_footer';
+.riuvo-demo, .portlet-boundary_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ {
+	font-family: $dpt-font-family-base;
+	font-size: $dpt-base-font-size;
+
+	@import '_elements';
+	@import '_header';
+	@import '_footer';
+}
+
 @import '_resources';
+
+html body {
+	background: $dpt-white;
+}
+
+.company-logo {
+	.mr-2 {
+		height: 40px;
+		width: 40px;
+		margin-right: 16px;
+	}
+}
+
+#banner {
+	position: sticky;
+	z-index: 3;
+	top: 0;
+}
+
+.has-control-menu {
+	#banner {
+		top: 56px;
+	}
+}
+
+.fragment-entry-link-list-wrapper {
+	#banner {
+		top: 0;
+	}
+}
+
+#content {
+	padding: $dpt-lg-whitespace 0;
+}
+
+#wrapper {
+	padding-top: 0;
+
+	.col:first-child {
+		padding-left: 0;
+	}
+
+	.col:last-child {
+		padding-right: 0;
+	}
+}
+
+.portlet-topper {
+	display: hidden !important;
+}
+
+.portlet-boundary_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ {
+	.container-fluid-1280 {
+		padding: 0;
+	}
+
+	.portlet-content {
+		padding: 16px 24px;
+	}
+	.portlet-forms .lfr-ddm-form-page-title, .portlet-forms .form-builder-page-header-title.form-control, .form-entry .lfr-ddm-form-page-title, .form-entry .form-builder-page-header-title.form-control {
+		padding: 0;
+	}
+
+	.portlet-forms {
+		.row {
+			margin: 0 !important;
+		}
+
+		.col-ddm {
+			padding: 0 !important;
+		}
+
+		.ddm-form-builder-app {
+			padding: 0;
+		}
+	}
+}

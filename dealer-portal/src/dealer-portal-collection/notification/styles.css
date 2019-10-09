@@ -1,6 +1,9 @@
 html body {
-  background-color: var(--dp-color-background-light); }
+	background-color: var(--dp-color-background-light); }
 
-.notification.dealer-portal {
-  padding-bottom: 20px;
-  padding-left: var(--dp-xs-whitespace); }
+  .notification.dealer-portal {
+	padding-bottom: 20px; }
+
+	.notification.dealer-portal .d-inline {
+	font-weight: 700;
+	}

@@ -1,99 +1,61 @@
-#banner {
-  position: fixed;
-  z-index: 3;
-}
-
-#content {
-  padding-top: $lg-whitespace;
-  margin-top: 136px;
-}
-
-#wrapper {
-  padding-top: 0;
-}
-
-:root {
-  --dp-h4-size: 25.63px;
-  --dp-secondary-font-size: 16px;
-  --dp-color-background-light: #f7f8f9;
-  --dp-color-dark: #09101d;
-  --dp-color-secondary: #646b75;
-  --dp-color-light: #f1f2f5;
-  --dp-color-white: #fff;
-
-  --dp-font-weight-black: 900;
-  --dp-font-weight-medium: 500;
-
-  --dp-xs-whitespace: 12px;
-  --dp-sm-whitespace: 16px;
-  --dp-md-whitespace: 24px;
-  --dp-lg-whitespace: 32px;
-  --dp-xl-whitespace: 48px;
-}
-
-html body {
-  background: $white;
-  font-family: $font-family-base;
-  font-size: $base-font-size;
-}
-
 h1,
 h2,
 h3,
 h4,
 h5 {
   font-family: 'Yantramanav-Medium';
-  font-weight: $font-weight-medium;
+  font-weight: $dpt-font-weight-medium;
 }
 
 h1 {
-  font-size: $h1-size;
+  font-size: $dpt-h1-size;
 
   &.display {
-    font-size: $h1-display-size;
-    line-height: $h1-display-line-height;
+    font-size: $dpt-h1-display-size;
+    line-height: $dpt-h1-display-line-height;
   }
 }
 
 h2 {
-  font-size: $h2-size;
+  font-size: $dpt-h2-size;
 }
 
 h3 {
-  font-size: $h3-size;
-  line-height: $h3-line-height;
+  font-size: $dpt-h3-size;
+  line-height: $dpt-h3-line-height;
 }
 
 h4 {
-  font-size: $h4-size;
-  line-height: $h4-line-height;
+  font-size: $dpt-h4-size;
+  line-height: $dpt-h4-line-height;
 }
 
 h5 {
-  font-size: $h5-size;
-  line-height: $h5-line-height;
+  font-size: $dpt-h5-size;
+  line-height: $dpt-h5-line-height;
 }
 
 hr {
-  border-bottom-color: $light;
-  margin-top: $xl-whitespace;
-  margin-bottom: $xl-whitespace;
+  border-bottom-color: $dpt-light;
+  margin-top: $dpt-xl-whitespace;
+  margin-bottom: $dpt-xl-whitespace;
 }
 
 .btn-primary {
-  background-color: $primary;
-  border-color: $primary;
+  background-color: $dpt-primary;
+  border-color: $dpt-primary;
 }
 
 .dashboard-fragment-footer {
-  padding: $md-whitespace;
+  padding: $dpt-md-whitespace;
   text-align: right;
 
   .view-all {
-    display: inline-block;
+	display: inline-block;
+	color: $dpt-primary;
     font-family: 'Yantramanav-Medium';
-    font-size: $secondary-size;
-    font-weight: $font-weight-medium;
+    font-size: $dpt-secondary-size;
+    font-weight: $dpt-font-weight-medium;
     text-transform: uppercase;
   }
 }
@@ -101,63 +63,49 @@ hr {
 .dashboard-fragment-header {
   display: flex;
   justify-content: space-between;
-  padding: $sm-whitespace 28px;
+  padding: $dpt-sm-whitespace 28px;
 
   .header-select {
-    color: $secondary;
+    color: $dpt-secondary;
   }
 }
 
 .font-size-secondary {
-  font-size: $secondary-size;
+  font-size: $dpt-secondary-size;
 }
 
 .font-size-small {
-  font-size: $small-size;
-  line-height: $small-line-height;
+  font-size: $dpt-small-size;
+  line-height: $dpt-small-line-height;
 }
 
 .font-weight-black {
   font-family: 'Yantramanav-Black';
-  font-weight: $font-weight-black;
+  font-weight: $dpt-font-weight-black;
 }
 
 .font-weight-medium {
   font-family: 'Yantramanav-Medium';
-  font-weight: $font-weight-medium;
-}
-
-.has-control-menu {
-  #content {
-    margin-top: 194px;
-  }
-
-  .navbar-header {
-    top: 58px;
-  }
-
-  .nav-primary {
-    top: 129px;
-  }
+  font-weight: $dpt-font-weight-medium;
 }
 
 .max-width-1224 {
   margin: 0 auto;
-  width: 1224px;
+  width: 1295px;
 }
 
 .nav-underline {
   .nav-item {
-    color: $secondary;
-    font-size: $secondary-size;
-    margin-right: $md-whitespace;
+    color: $dpt-secondary;
+    font-size: $dpt-secondary-size;
+    margin-right: $dpt-md-whitespace;
 
     &.active {
       .nav-link {
-        border-bottom: 2px solid $primary;
-        color: $dark;
+        border-bottom: 2px solid $dpt-primary;
+        color: $dpt-dark;
         font-family: 'Yantramanav-Medium';
-        font-weight: $font-weight-medium;
+        font-weight: $dpt-font-weight-medium;
       }
     }
 
@@ -170,11 +118,11 @@ hr {
 
 .stock-number,
 .vin {
-  color: $secondary;
+  color: $dpt-secondary;
 }
 
 .table {
-  font-size: $secondary-size;
+  font-size: $dpt-secondary-size;
 
   &.table-list {
     td,
@@ -187,12 +135,19 @@ hr {
   }
 
   th {
-    color: $dark;
+    color: $dpt-dark;
   }
 }
 
 .vehicle-name {
   font-family: 'Yantramanav-Medium';
   font-size: 18px;
-  font-weight: $font-weight-medium;
+  font-weight: $dpt-font-weight-medium;
+}
+
+&.dealer-portal-card, .portlet-content {
+	margin-bottom: 24px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 10px rgba(23, 23, 26, 0.1);
+	border-radius: 4px;
 }

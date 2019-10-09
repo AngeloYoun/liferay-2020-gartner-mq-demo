@@ -1,18 +1,39 @@
-#banner .navbar-header-inner.row {
+&#banner .navbar-header-inner.row {
     display: flex;
-    justify-content: space-between;
+	justify-content: space-between;
+
+	.col-md-6 {
+		padding: 0;
+	}
+}
+
+&#banner > .row {
+	display: flex;
+}
+
+.company-logo {
+	display: flex;
+	height: 56px;
+	align-items: center;
+
+	h5 {
+		margin: 0 0 0 8px;
+	}
 }
 
 .navbar-header {
     align-items: center;
-    background-color: $brand;
+    background-color: $dpt-brand;
     display: flex;
 	height: 72px;
-	position: fixed;
-	top: 0;
 
 	a {
-		color: $white;
+		color: $dpt-white;
+	}
+
+	.navbar-header-inner > .col-md-6 {
+		display: flex;
+    	align-items: center;
 	}
 
 	.company-logo h5,
@@ -26,37 +47,43 @@
 		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='512'%20height='512'%20viewBox='0%200%20512%20512'%3E%3Cpath%20class='lexicon-icon-outline'%20d='M503.254%20467.861L369.609%20334.216c27.671-35.13%2044.344-79.327%2044.344-127.415C413.953%2093.017%20321.375.439%20207.591.439S1.229%2093.017%201.229%20206.801s92.578%20206.362%20206.362%20206.362c47.268%200%2090.735-16.146%20125.572-42.969l133.851%20133.851c5.002%205.002%2011.554%207.488%2018.106%207.488s13.104-2.486%2018.106-7.488c10.004-10.003%2010.004-26.209.029-36.183zM52.446%20206.801c0-85.558%2069.616-155.173%20155.173-155.173s155.174%2069.616%20155.174%20155.173-69.616%20155.173-155.173%20155.173S52.447%20292.358%2052.447%20206.801z'%20fill='%23FFF'/%3E%3C/svg%3E");
 		background-repeat: no-repeat;
 		background-position: right 8px center;
-		background-size: $secondary-size;
+		background-size: $dpt-secondary-size;
 		border-color: transparent;
-		margin-left: $md-whitespace;
+		margin-left: $dpt-md-whitespace;
+		padding: 8px;
 
 		&::placeholder {
-			color: $white;
+			color: $dpt-white;
 		}
 	}
 
 	.sticker-lg {
-		height: $lg-whitespace;
-		width: $lg-whitespace;
+		height: $dpt-lg-whitespace;
+		width: $dpt-lg-whitespace;
 	}
 
 	.user-information {
 		align-items: center;
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: flex-end;
 
 		.salutation {
 			display: flex;
-			font-size: $secondary-size;
+			font-size: $dpt-secondary-size;
 			line-height: 18px;
+		}
+
+		.message,
+		.salutation,
+		.notification,
+		.user-personal-bar {
+			margin: 0 0 0 16px;
 		}
 	}
 }
 
 .nav-primary {
-	background-color: $white;
-	border-bottom: 1px solid $light;
+	background-color: $dpt-white;
+	border-bottom: 1px solid $dpt-light;
 	height: 64px;
-	position: fixed;
-	top: 72px;
 }

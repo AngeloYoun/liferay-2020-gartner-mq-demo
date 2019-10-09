@@ -13,13 +13,13 @@
 
   --zeon-font-weight-medium: 500;
   --zeon-font-weight-black: 900;
-  
+
   --zeon-h1-display-line-height: 72px;
   --zeon-h3-line-height: 30px;
   --zeon-h4-line-height: 72px;
   --zeon-h5-line-height: 28px;
   --zeon-small-line-height: 24px;
-  
+
   --zeon-primary: #d72323;
   --zeon-primary-dark: #af0000;
   --zeon-dark: #09101d;
@@ -28,12 +28,12 @@
   --zeon-background-light: #F7F8F9;
   --zeon-light: #ededf0;
   --zeon-white: #fff;
-  
+
   --zeon-xs-whitespace: 12px;
   --zeon-sm-whitespace: 16px;
   --zeon-md-whitespace: 28px;
   --zeon-lg-whitespace: 32px;
-  
+
   --zeon-max-width: 1224px;
 }
 
@@ -90,12 +90,21 @@ body .zeon {
       display: inline;
       padding-right: 8px;
     }
-    
+
     .content {
       display: inline;
       padding-right: 22px;
     }
   }
+
+  .account-info {
+	  text-align: right;
+
+	.content {
+		padding-right: 0;
+		padding-left: 22px;
+	}
+	}
 
   .btn {
     border-radius: 0;
